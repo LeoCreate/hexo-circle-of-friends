@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "https://www.yyyzyyyz.cn/link/", theme: "butterfly" },  # 友链页地址1，修改为你的友链页地址
+     { link: "", theme: "" },  # 友链页地址1，修改为你的友链页地址
 #     { link: "https://noionion.top/link/", theme: "butterfly" }, # 友链页地址2
 #     { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -30,17 +30,21 @@ LINK: [
 #       avatar：必填，头像地址
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
-    enable: false,
+    enable: true,
     json_api: "",
     list: [
         # 示例1：
-        ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
-        ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
-        # 示例2：使用suffix的配置如下
-        # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
-        # 如果目标地址的后缀不在其中，就可以在这里添加
-        # 比如 https://elizen.me/hello.xml ，填写：
-        ["elizen", "https://elizen.me/", "https://akilar.top/images/headimage.png", "hello.xml"]
+        ["Leo's Blog", "https://www.isolitude.cn/", "https://pic.isolitude.cn/2022/01/28/683727a137bb0.png"],
+        ["Wind­sky 博客", "https://www.okace.cn/", "https://q2.qlogo.cn/headimg_dl?dst_uin=1275069349&spec=100"],
+        ["krau 自留地", "https://krau.top/", "https://krau.top/photo/avatar/avatar.jpg"],
+        ["大于二三", "https://xxbxk.top/", "https://www.xxbxk.top/wp-content/uploads/2021/03/cropped-ErSanLogo-1.png"],
+        ["SkyWT", "https://blog.skywt.cn/", "https://blog.skywt.cn/usr/themes/Daydream/assets/img/avatar.png"],
+        ["山川行貉", "https://blog.scxho.cn/", "https://scxho.cn/1.png"],
+        ["Justin 写字的地方", "https://zblogs.top/", "https://i0.wp.com/zblogs.top/wp-content/uploads/2022/03/Justin.jpg?w=1200&ssl=1"],
+        ["一个喧嚣", "https://blog.oceanum.top/", "https://img.oceanum.top/WechatIMG564.jpeg"],
+        ["itsNeko", "https://dyfa.top/", "https://dyfa.top/usr/themes/Nabo-theme-typecho-main/image/logo.jpg"],
+        ["小宋博客", "https://cannon.org.cn/", "https://cannon.org.cn/linux/logo.jpg"],
+        ["昼河万里", "https://tothemoonriver.icu/", "https://tothemoonriver.icu/img/avatar_hu1f7fd3bb10d1d6e480fe680f98f799d1_738451_300x0_resize_box_3.png"]
     ]
 }
 
