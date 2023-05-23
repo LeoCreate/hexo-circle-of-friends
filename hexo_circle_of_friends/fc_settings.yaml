@@ -15,7 +15,7 @@
 #   - stellar：stellar主题
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。
 LINK: [
-     { link: "", theme: "" },  # 友链页地址1，修改为你的友链页地址
+     { link: "https://www.isolitude.cn/links.html", theme: "common2" },  # 友链页地址1，修改为你的友链页地址
 #     { link: "https://noionion.top/link/", theme: "butterfly" }, # 友链页地址2
 #     { link: "https://immmmm.com/about/", theme: "common1" }, # 友链页地址3
 #     ...
@@ -41,7 +41,6 @@ SETTINGS_FRIENDS_LINKS: {
         ["SkyWT", "https://blog.skywt.cn/", "https://blog.skywt.cn/usr/themes/Daydream/assets/img/avatar.png"],
         ["山川行貉", "https://blog.scxho.cn/", "https://scxho.cn/1.png"],
         ["Justin 写字的地方", "https://zblogs.top/", "https://i0.wp.com/zblogs.top/wp-content/uploads/2022/03/Justin.jpg?w=1200&ssl=1"],
-        ["一个喧嚣", "https://blog.oceanum.top/", "https://img.oceanum.top/WechatIMG564.jpeg"],
         ["itsNeko", "https://dyfa.top/", "https://dyfa.top/usr/themes/Nabo-theme-typecho-main/image/logo.jpg"],
         ["小宋博客", "https://cannon.org.cn/", "https://cannon.org.cn/linux/logo.jpg"],
         ["昼河万里", "https://tothemoonriver.icu/", "https://tothemoonriver.icu/img/avatar_hu1f7fd3bb10d1d6e480fe680f98f799d1_738451_300x0_resize_box_3.png"]
